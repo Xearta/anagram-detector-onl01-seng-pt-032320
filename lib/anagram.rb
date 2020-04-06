@@ -8,4 +8,4 @@ end
 
 
 word = Anagram.new("test")
-puts word
+puts word.word
