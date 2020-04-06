@@ -1,3 +1,5 @@
+require 'pry'
+
 class Anagram
   attr_accessor :word
   
@@ -13,8 +15,15 @@ class Anagram
     #     SPLIT the word into an array of letters
     #     Then .sort the arrays
     #     Then compare
+    word_array = []
     array.each do |word|
-      
+      word_array = word.split("")
+      binding.pry
+      if @word.sort == word_array.sort
+        # Correct
+      else
+        # Incorrect
+      end
     end
   end
   
