@@ -7,5 +7,5 @@ class Anagram
 end
 
 
-word = Anagram.new("test")
-puts word.word
+ana = Anagram.new("test")
+puts ana.word
