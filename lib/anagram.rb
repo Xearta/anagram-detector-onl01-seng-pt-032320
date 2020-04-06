@@ -17,8 +17,3 @@ class Anagram
   end
   
 end
-
-
-ana = Anagram.new("test")
-puts ana.word
-puts ana.match
