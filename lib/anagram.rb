@@ -16,14 +16,14 @@ class Anagram
     #     Then .sort the arrays
     #     Then compare
     word_array = []
+    correct_word = ""
     array.each do |word|
       word_array = word.split("")
       binding.pry
       if @word.sort == word_array.sort
         # Correct
-      else
-        # Incorrect
       end
+      
     end
   end
   
