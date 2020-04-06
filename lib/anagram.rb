@@ -7,7 +7,9 @@ class Anagram
   
   
   def match(array)
-    puts @word
+    # Iterate over each word in array
+    # Compare each word with the original word
+    #     By checking if they are composed of the same letter (ANAGRAM)
   end
   
 end
