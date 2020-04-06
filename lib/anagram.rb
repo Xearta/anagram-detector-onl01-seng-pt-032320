@@ -15,11 +15,12 @@ class Anagram
     #     SPLIT the word into an array of letters
     #     Then .sort the arrays
     #     Then compare
-    word_array = []
+    word_array = @word.split("")
+    compare_array = []
     correct_word = ""
     array.each do |word|
-      word_array = word.split("")
-      if @word.sort == word_array.sort
+      compare_array = word.split("")
+      if word_array.sort == compare_array.sort
         # Correct
         binding.pry
       end
