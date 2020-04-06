@@ -13,7 +13,9 @@ class Anagram
     #     SPLIT the word into an array of letters
     #     Then .sort the arrays
     #     Then compare
-    
+    array.each do |word|
+      
+    end
   end
   
 end
