@@ -20,9 +20,10 @@ class Anagram
     correct_word = ""
     array.each do |word|
       compare_array = word.split("")
+      binding.pry
       if word_array.sort == compare_array.sort
         # Correct
-        binding.pry
+        
       end
       
     end
