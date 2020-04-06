@@ -19,9 +19,9 @@ class Anagram
     correct_word = ""
     array.each do |word|
       word_array = word.split("")
-      binding.pry
       if @word.sort == word_array.sort
         # Correct
+        binding.pry
       end
       
     end
