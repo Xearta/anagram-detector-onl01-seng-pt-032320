@@ -5,3 +5,7 @@ class Anagram
     @word = word
   end
 end
+
+
+word = Anagram.new("test")
+puts word
